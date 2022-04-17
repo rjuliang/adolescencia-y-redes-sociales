@@ -1,5 +1,5 @@
 import Main from "./Main";
-//import "./styles/styles.css";
+import "./styles.css";
 
 import { createRoot } from 'react-dom/client';
 const frontEnd = document.getElementById('root');

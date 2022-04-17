@@ -7,7 +7,7 @@ class Actividades extends Component {
     render(){
         return (
             <div>
-                <h3>Que Hacer?</h3>
+                <h2>Que Hacer?</h2>
                 <div>
                     <div>
                         {main_content.map(item => (
