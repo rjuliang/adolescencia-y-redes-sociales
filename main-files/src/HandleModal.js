@@ -31,9 +31,13 @@ class HandleModal extends Component {
                             </div>
                         )}
                     </Modal>
-                    <button type="button" onClick={this.showModal}>
-                        {this.props.phrase}
-                    </button>
+                    <div className="pre-modal">
+                        <p>{this.props.phrase}</p>
+                        <button type="button" onClick={this.showModal}>
+                            Ver mas
+                        </button>
+                    </div>
+                    
                 </div>
             </div>
         )
@@ -43,7 +47,7 @@ class HandleModal extends Component {
 class Video extends Component {
     render(){
         return(
-            <iframe width="560" height="315" src={this.props.url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe  src={this.props.url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         )
     }
 }

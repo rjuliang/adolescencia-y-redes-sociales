@@ -8,18 +8,22 @@ class Actividades extends Component {
         return (
             <div>
                 <h2>Que Hacer?</h2>
+                <br></br>
                 <div>
-                    <div>
+                    <div className="video-buttons">
                         {main_content.map(item => (
-                            <div>
+                            <div className="videos-pre-button">
                                 <HandleModal videos={item.videos} phrase={item.phrase}></HandleModal>
                             </div>
                             
                         ))}
-                        <p></p>
                         
                     </div>
                 </div>
+                <br></br>
+                <hr></hr>
+                <h2>Encuesta</h2>
+                <p>Llena la encuesta acerca redes sociales <a href="https://forms.gle/pUdphVN6wPtfp5JU9" target="_blank">aqui</a></p>
             </div>
         )
     }

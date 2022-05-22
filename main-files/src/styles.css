@@ -1,15 +1,147 @@
 * {
     box-sizing: border-box;
 }
-
-body {
-    max-width: 1200px;
-    margin: 0 auto;
+html {
+    background-color: rgba(137,207,240,0.2);
 }
-
 img {
     max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-h1,h2,h3,h4,h5,h6{
+
+body {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h1{
     text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+h2, p, ul, li, blockquote, figcaption{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, ul, li, blockquote{
+    font-size: 16px;
+}
+
+figure{
+    text-align: center;
+    margin: 0;
+}
+
+figcaption{
+    font-size: 12px;
+    text-align: center;
+}
+
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+ul.header {
+    padding: 0;
+    text-align: center;
+    font-family: Futura;
+}
+ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    color: #1b47a1;
+}
+
+.content {
+    background-color: #FFF;
+    padding: 20px;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+}
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+.content li {
+    margin-bottom: 10px;
+}
+
+ul.header li a:hover{
+    transition: 0.3s;
+}
+
+ul.header li a:hover, ul.header .active {
+    color: #083082;
+    border-bottom: 3px solid #083082;
+}
+
+hr{
+    margin: 20px auto;
+}
+
+.elementos div{
+    padding: 15px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.pre-modal{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.video-buttons button{
+    /* width: 100%; */
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #0A66C2;
+    color: white;
+    font-weight: bold;
+    font-size: 13pt;
+    border-color: #0A66C2;
+    border-radius: 5px;
+}
+
+.video-buttons button:hover{
+    background-color: rgb(10, 40, 98);
+}
+
+.modal-main{
+    padding: 20px;
+    text-align: right;
+}
+
+.modal-main iframe{
+    width: 100%;
+    height: 315px;
+}
+
+@media screen and (min-width: 768px){
+    .content {
+        background-color: #FFF;
+        padding: 50px;
+        border: 1px solid #E8E8E8;
+        border-radius: 4px;
+    }
+    .elementos {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .video-buttons{
+        display: grid;
+        grid-template-columns: auto auto;   
+    }
+
+    .videos-modal{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
 }

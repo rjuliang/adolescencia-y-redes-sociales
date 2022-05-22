@@ -6,7 +6,7 @@ class UsoRedes extends Component {
             <div>
                 <h2>Uso De Redes Sociales En Adolescentes</h2>
                 <figure>
-                    <img src={uso_redes} atl="grafico con uso de redes" />
+                    <img src={uso_redes} alt="grafico con uso de redes" />
                 </figure>
             </div>
         )
