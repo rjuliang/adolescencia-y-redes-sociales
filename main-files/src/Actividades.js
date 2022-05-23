@@ -7,7 +7,7 @@ class Actividades extends Component {
     render(){
         return (
             <div>
-                <h2>¿Que Hacer?</h2>
+                <h2>¿Qué Hacer?</h2>
                 <br></br>
                 <div>
                     <div className="video-buttons">
