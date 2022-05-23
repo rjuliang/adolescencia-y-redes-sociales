@@ -15,12 +15,12 @@ class Main extends Component {
         return (
             <div>
                 <HashRouter>
-                <h1>Te gustan las redes sociales?</h1>
+                <h1>¿Te gustan las redes sociales?</h1>
                 <ul className="header">
                     <li><NavLink to="/">Inicio</NavLink></li>
                     <li><NavLink to="/redes">Acerca de las Redes</NavLink></li>
                     <li><NavLink to="/actividades">Actividades</NavLink></li>
-                    <li><NavLink to="/mas_info">Mas Informacion</NavLink></li>
+                    <li><NavLink to="/mas_info">Más información</NavLink></li>
                 </ul>
                 <div className="content"> 
                     <Routes>

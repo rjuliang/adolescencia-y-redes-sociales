@@ -34,7 +34,7 @@ class HandleModal extends Component {
                     <div className="pre-modal">
                         <p>{this.props.phrase}</p>
                         <button type="button" onClick={this.showModal}>
-                            Ver mas
+                            Ver más
                         </button>
                     </div>
                     

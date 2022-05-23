@@ -1,13 +1,13 @@
 const main_content = [
     {
-        phrase: "Participación en actividades deportivas.",
+        phrase: "Participación en actividades deportivas",
         videos: [
             "https://www.youtube.com/embed/-JqsRtYPYgA",
             "https://www.youtube.com/embed/t7W8xJTRZ78",
         ]
     },
     {
-        phrase: "Control de horarios en el uso de equipos electrónicos.",
+        phrase: "Control de horarios en el uso de equipos electrónicos",
         videos: [
             "https://www.youtube.com/embed/lyOoHtyyI0U",
             "https://www.youtube.com/embed/gH18SJWgjMc"
@@ -20,7 +20,7 @@ const main_content = [
         ]//Segundo video fallo
     },
     {
-        phrase: "Interacción con grupo de pares.",
+        phrase: "Interacción con grupo de pares",
         videos: [
             "https://www.youtube.com/embed/4wOjaHwu6ms",
             "https://www.youtube.com/embed/5XsQfQyASzc"

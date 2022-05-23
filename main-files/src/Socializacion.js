@@ -8,7 +8,7 @@ class Socializacion extends Component {
     render(){
         return (
             <div>
-                <h2>La Socializacion Elemento Clave En Adolescentes</h2>
+                <h2>La socializacion elemento clave en adolescentes</h2>
                 <br></br>
                 <div className="elementos">
                     <div>                                              

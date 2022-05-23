@@ -7,7 +7,7 @@ class Actividades extends Component {
     render(){
         return (
             <div>
-                <h2>Que Hacer?</h2>
+                <h2>¿Que Hacer?</h2>
                 <br></br>
                 <div>
                     <div className="video-buttons">
@@ -23,7 +23,7 @@ class Actividades extends Component {
                 <br></br>
                 <hr></hr>
                 <h2>Encuesta</h2>
-                <p>Llena la encuesta acerca redes sociales <a href="https://forms.gle/pUdphVN6wPtfp5JU9" target="_blank">aqui</a></p>
+                <p>Llena la encuesta acerca redes sociales <a href="https://forms.gle/pUdphVN6wPtfp5JU9" target="_blank">aquí</a></p>
             </div>
         )
     }
