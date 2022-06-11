@@ -9,13 +9,16 @@ import Acerca from "./Acerca";
 import Actividades from "./Actividades";
 import Home from './Home';
 import MoreInfo from "./more-info";
-
+import iconos from './images/main_icon.png';
 class Main extends Component {
     render(){
         return (
             <div>
                 <HashRouter>
-                <h1>¿Te gustan las redes sociales?</h1>
+                <figure>
+                    <img src={iconos} alt="iconos de redes sociales" width="300"/>
+                </figure>
+                <h1>Viaja por las Redes de Manera Saludable</h1>                 
                 <ul className="header">
                     <li><NavLink to="/">Inicio</NavLink></li>
                     <li><NavLink to="/redes">Acerca de las Redes</NavLink></li>

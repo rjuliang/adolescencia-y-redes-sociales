@@ -123,6 +123,22 @@ hr{
     height: 315px;
 }
 
+.cambios-desarrollo figure{
+    width: 250px;
+    text-align: left;
+}
+
+.linea-emergencia{
+    color: #AB0B45;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.linea-emergencia p{
+    font-size: 18pt;
+}
+
 @media screen and (min-width: 768px){
     .content {
         background-color: #FFF;

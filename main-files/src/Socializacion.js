@@ -8,11 +8,11 @@ class Socializacion extends Component {
     render(){
         return (
             <div>
-                <h2>La socializacion elemento clave en adolescentes</h2>
+                <h2>La Socialización Elemento Clave en Adolescentes</h2>
                 <br></br>
                 <div className="elementos">
                     <div>                                              
-                        <p>Las relaciones sociales se vieron afectadas de manera importante a raíz del COVID-19.</p>
+                        <p>El aislamiento generado durante la pandemia afecto directamente la forma de relacionarse de los adolescentes.</p>
                         <figure>
                             <img src= {ipad_seat} alt="Dos niños leyendo sentados en tablet" />
                         </figure>  
