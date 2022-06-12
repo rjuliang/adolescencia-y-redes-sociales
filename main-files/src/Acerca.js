@@ -16,7 +16,7 @@ class Acerca extends Component {
                 <UsoRedes></UsoRedes>
                 <br></br>
                 <hr></hr>
-                <h2>Consecuencias Que Te Puede Traer El Uso Excesivo De Redes Sociales </h2>
+                <h2>Consecuencias que Te Puede Traer el Uso Excesivo de Redes Sociales </h2>
                 <ul className="cambios-desarrollo">
                     <li>Cambios en el desarrollo estructural del cerebro</li>
                     <figure>

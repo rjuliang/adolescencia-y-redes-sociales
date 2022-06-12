@@ -20,9 +20,6 @@ class MoreInfo extends Component {
                     <p>Línea 106</p>
                     <p>Whatsapp 300 754 9833 24 horas del día</p>
                 </div>
-                <hr></hr>
-                <iframe src={more_info} title="Mas Informacion acerca del covid y las redes sociales" width="100%" height="500px">
-                </iframe>
             </div>
         )
     }
