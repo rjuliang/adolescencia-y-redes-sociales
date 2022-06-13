@@ -23,7 +23,7 @@ class Actividades extends Component {
                 <br></br>
                 <hr></hr>
                 <h2>Un Reto para Ti:</h2>
-                <p><b>Reto #1:</b> Llena la encuesta acerca redes sociales <a href="https://forms.gle/pUdphVN6wPtfp5JU9" target="_blank">aquí</a></p>
+                <p><b>Reto #1:</b> Llena la encuesta acerca de las redes sociales <a href="https://forms.gle/pUdphVN6wPtfp5JU9" target="_blank">aquí</a></p>
             </div>
         )
     }
